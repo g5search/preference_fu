@@ -5,8 +5,8 @@ rescue LoadError
   require 'active_record'
 end
 
-require 'preference_fu'
-require "#{File.dirname(__FILE__)}/../init"
+require File.dirname(__FILE__) + '/../lib/preference_fu'
+require File.dirname(__FILE__) + "/../init"
 
 ActiveRecord::Base.establish_connection(:adapter => "sqlite3", :database => ":memory:")
 

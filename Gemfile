@@ -1,9 +1,9 @@
-source 'http://rubygems.org' 
+source 'https://rubygems.org'
 source 'http://gems.github.com'
 
-gem 'jeweler','~>1.5'
+gem 'jeweler','~>2.0'
 
 group :test,:development do
-	gem 'rails','~>3.0.1' 
-  gem 'sqlite3'              
+	gem 'rails','~>3.1.1'
+  gem 'sqlite3'
 end
